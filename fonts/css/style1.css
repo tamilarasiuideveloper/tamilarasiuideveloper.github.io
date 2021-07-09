@@ -1,0 +1,271 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+p.learn-btn a {
+    background: #289c6c;
+    border: 1px solid #289c6c;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 23%;
+	font:25px Conv_aqrswfte;
+	letter-spacing: 1px;
+		-webkit-box-shadow: 0 8px 12px -6px black;
+	   -moz-box-shadow: 0 8px 12px -6px black;
+	        box-shadow: 0 8px 12px -6px black;
+}
+.bg-img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+	 z-index: -1;
+}
+header.logo-header a.logo-part img {
+    width: 10%;
+}
+header.logo-header {
+    margin: 20px 0px 30px 0px;
+}
+body.LMS-Pge {
+    background: #f3f2f2;
+}
+
+footer.footer {
+    background: #fff;
+    text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    width: 100%;
+	margin-top: 20px;
+	position:relative;
+}
+.bg-left {
+    position: absolute;
+    left: 0px;
+	top: 46%;
+	z-index: -1;
+}
+.bg-right {
+    position: absolute;
+    right: 0px;
+	top: 46%;
+	z-index: -1;
+}
+.home-sec{
+	background:url(../images/personimage.png) no-repeat;
+	background-position:right;
+	    height: 600px;
+}
+
+h1.cover-heading {
+	font:50px Conv_aqlswfte;
+	line-height: 1.2;
+	margin-top: 35px;
+}
+h1.cover-heading label {
+	font:50px Conv_aqrswfte;
+}
+p.learn-btn {
+    margin-top: 30px;
+}
+.shad-img {
+    position: absolute;
+    margin-left: 15%;
+    bottom: 9px;
+    z-index: -10;
+}
+.inner h3 {
+    font: 28px Conv_aqlswfte;
+    padding-bottom: 30px;
+}
+a.logo-part {
+    padding-left: 30px;
+}
+.border-strip {
+    border: 15px solid #f8f9fa;
+    border-bottom: 0px;
+    margin: 40px;
+    border-radius: 25px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    clear: both;
+    content: "";
+    display: inherit;
+}
+
+p.learn-btn img {
+    width: 50px;
+	-webkit-filter: invert(100%);
+    filter: invert(100%);
+	padding-bottom:10px;
+}
+p.learn-btn a:hover{
+	background-color:#1a72be;
+}
+.inner {
+    padding: 0px 30px;
+}
+
+.foo-images img {
+    border: 1px solid lightgray;
+    padding: 0px;
+    margin: 10px;
+    background: lightgray;
+	Box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+@media screen and (max-width: 1681px) and (min-width: 1280px ){
+	p.learn-btn a {
+    width: 30%;
+	padding: 6px 20px;
+    font: 20px Conv_aqrswfte;
+	}
+	h1.cover-heading {
+    font: 40px Conv_aqlswfte;
+}
+h1.cover-heading label {
+    font: 40px Conv_aqrswfte;
+}
+header.logo-header a.logo-part img {
+    width: 15%;
+}
+}
+@media screen and (max-width: 1279px) and (min-width: 1025px ){
+	header.logo-header a.logo-part img {
+    width: 18%;
+}
+			p.learn-btn a {
+    width: 48%;
+	    padding: 6px 15px;
+	}
+	h1.cover-heading {
+    font: 40px Conv_aqlswfte;
+}
+h1.cover-heading label {
+    font: 40px Conv_aqrswfte;
+}
+.inner h3 {
+    font: 23px Conv_aqlswfte;
+}
+.bg-left,.bg-right {
+    top: 43%;
+}
+}
+@media screen and (max-width: 1024px) and (min-width: 992px ){
+		p.learn-btn a {
+    width: 48%;
+	    padding: 6px 15px;
+	}
+		h1.cover-heading {
+    font: 35px Conv_aqlswfte;
+}
+h1.cover-heading label {
+    font: 35px Conv_aqrswfte;
+}
+header.logo-header a.logo-part img {
+    width: 18%;
+}
+section.LMS-cont.text-center {
+    margin-top: 70px;
+}
+.inner h3 {
+    font: 22px Conv_aqlswfte;
+	padding-bottom: 20px;
+}
+footer.footer {
+    padding-top: 20px;
+	margin: 0px;
+}
+.bg-left,.bg-right {
+    top: 27%;
+}
+}
+@media screen and (max-width: 991px) and (min-width: 768px ){
+			p.learn-btn a {
+    width: 45%;
+	font: 18px Conv_aqrswfte;
+	    padding: 6px 15px;
+	}
+		h1.cover-heading {
+    font: 28px Conv_aqlswfte;
+}
+h1.cover-heading label {
+    font: 28px Conv_aqrswfte;
+}
+header.logo-header a.logo-part img {
+    width: 20%;
+}
+section.LMS-cont.text-center {
+    margin-top: 70px;
+}
+.inner h3 {
+    font: 20px Conv_aqlswfte;
+	padding-bottom: 20px;
+}
+footer.footer {
+    padding-top: 20px;
+	margin:0px;
+}
+p.learn-btn img {
+    width: 36px;
+    padding-bottom: 3px;
+}
+.bg-left,.bg-right {
+    top: 26%;
+}
+	
+}
+@media screen and (max-width: 767px) and (min-width: 320px ){
+	a.logo-part {
+    padding-left: 0px;
+}
+header.logo-header {
+    text-align: center;
+}
+h1.cover-heading {
+    font: 20px Conv_aqlswfte;
+	    padding: 0px 20px;
+}
+h1.cover-heading label {
+    font: 20px Conv_aqrswfte;
+}
+p.learn-btn a {
+    padding: 6px 5px;
+    width: 90%;
+    font: 12px Conv_aqrswfte;
+}
+p.learn-btn img {
+    width: 30px;
+}
+header.logo-header a.logo-part img {
+    width: 40%;
+}
+.border-strip {
+    margin: 15px;
+}
+.inner h3 {
+    font: 16px Conv_aqlswfte;
+	padding-bottom: 15px;
+}
+footer.footer {
+    padding-top: 20px;
+}
+.home-sec {
+    background: transparent;
+    height: auto;
+}
+.shad {
+    display: none;
+}
+}
+@media screen and (max-width: 767px) and (min-width: 540px ){
+header.logo-header a.logo-part img {
+    width: 25%;
+}
+p.learn-btn a {
+    width: 70%;
+    font: 16px Conv_aqrswfte;
+}
+}
