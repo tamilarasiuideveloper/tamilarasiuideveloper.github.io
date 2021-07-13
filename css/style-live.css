@@ -123,7 +123,7 @@ p.learn-btn a:hover{
 
 @media screen and (max-width: 1681px) and (min-width: 1280px ){
 	p.learn-btn a {
-    width: 32%;
+     width: 330px;
 	padding: 6px 20px;
     font: 20px Conv_aqrswfte;
 	}
@@ -142,7 +142,6 @@ header.logo-header a.logo-part img {
 }
 .img-footer img.img-fluid {
     height: 80px;
-    width: 100%;
 }
 }
 @media screen and (max-width: 1279px) and (min-width: 1025px ){
@@ -150,7 +149,7 @@ header.logo-header a.logo-part img {
     width: 18%;
 }
 			p.learn-btn a {
-    width: 48%;
+    width: 385px;
 	    padding: 6px 15px;
 	}
 	h1.cover-heading {
@@ -171,12 +170,11 @@ h1.cover-heading label {
 }
 .img-footer img.img-fluid {
     height: 80px;
-    width: 100%;
 }
 }
 @media screen and (max-width: 1024px) and (min-width: 992px ){
 		p.learn-btn a {
-    width: 48%;
+    width: 400px;
 	    padding: 6px 15px;
 	}
 		h1.cover-heading {
@@ -208,12 +206,11 @@ footer.footer {
 }
 .img-footer img.img-fluid {
     height: 80px;
-    width: 100%;
 }
 }
 @media screen and (max-width: 991px) and (min-width: 768px ){
 			p.learn-btn a {
-    width: 50%;
+   width: 325px;
 	font: 18px Conv_aqrswfte;
 	    padding: 6px 15px;
 	}
@@ -250,7 +247,6 @@ p.learn-btn img {
 }
 .img-footer img.img-fluid {
     height: 70px;
-    width: 140px;
 }
 }
 @media screen and (max-width: 767px) and (min-width: 320px ){
@@ -311,7 +307,7 @@ header.logo-header a.logo-part img {
     width: 25%;
 }
 p.learn-btn a {
-    width: 55%;
+    width: 265px;
     font: 16px Conv_aqrswfte;
 }
 .img-footer {
@@ -320,6 +316,5 @@ p.learn-btn a {
 }
 .img-footer img.img-fluid {
     height: 70px;
-    width: 140px;
 }
 }
