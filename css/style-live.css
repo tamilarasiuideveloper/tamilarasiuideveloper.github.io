@@ -114,7 +114,7 @@ p.learn-btn a:hover{
     display: inline-block;
     width: 350px;
     background: #fff;
-    border: 1px solid blue;
+    border: 1px solid #fff;
     padding: 10px;
     height: 120px;
 	margin: 5px;
@@ -136,6 +136,14 @@ h1.cover-heading label {
 header.logo-header a.logo-part img {
     width: 15%;
 }
+.img-footer {
+    width: 22%;
+    height: 110px;
+}
+.img-footer img.img-fluid {
+    height: 80px;
+    width: 100%;
+}
 }
 @media screen and (max-width: 1279px) and (min-width: 1025px ){
 	header.logo-header a.logo-part img {
@@ -156,6 +164,14 @@ h1.cover-heading label {
 }
 .bg-left,.bg-right {
     top: 43%;
+}
+.img-footer {
+    width: 22%;
+    height: 110px;
+}
+.img-footer img.img-fluid {
+    height: 80px;
+    width: 100%;
 }
 }
 @media screen and (max-width: 1024px) and (min-width: 992px ){
@@ -185,6 +201,14 @@ footer.footer {
 }
 .bg-left,.bg-right {
     top: 27%;
+}
+.img-footer {
+    width: 22%;
+    height: 110px;
+}
+.img-footer img.img-fluid {
+    height: 80px;
+    width: 100%;
 }
 }
 @media screen and (max-width: 991px) and (min-width: 768px ){
@@ -220,7 +244,14 @@ p.learn-btn img {
 .bg-left,.bg-right {
     top: 26%;
 }
-	
+.img-footer {
+    width: 22%;
+    height: 90px;
+}
+.img-footer img.img-fluid {
+    height: 70px;
+    width: 140px;
+}
 }
 @media screen and (max-width: 767px) and (min-width: 320px ){
 	a.logo-part {
@@ -270,16 +301,9 @@ footer.footer {
     display: none;
 }
 .img-footer {
-    width: 100%;
-    margin: 5px 0px;
-}
-.img-footer img.img-fluid {
-    height: 90px;
-    width: 140px;
-}
-.img-footer {
     width: 23%;
-    height: 100px;
+    height: auto;
+	 margin: 5px 0px;
 }
 }
 @media screen and (max-width: 767px) and (min-width: 540px ){
