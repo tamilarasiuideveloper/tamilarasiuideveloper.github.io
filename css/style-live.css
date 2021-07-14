@@ -302,6 +302,23 @@ footer.footer {
 	 margin: 5px 0px;
 }
 }
+@media screen and (max-width: 425px) and (min-width: 350px ){
+	.img-footer {
+    width: 23%;
+    height: 55px;
+	 margin: 5px 0px;
+}
+}
+@media screen and (max-width: 425px) and (min-width: 400px ){
+		.img-footer {
+    width: 23%;
+    height: 55px;
+	 margin: 5px 0px;
+}
+.img-footer:last-child {
+   padding-top:6px;
+}
+}
 @media screen and (max-width: 767px) and (min-width: 540px ){
 header.logo-header a.logo-part img {
     width: 25%;
