@@ -138,11 +138,12 @@ p.learn-btn a:hover{
 }
 .img-footer.flex-item img {
     display: block;
-    width: 150px;
+    /* width: 150px; */
     height: 100px;
     object-fit: contain;
     justify-content: center;
     align-items: center;
+	padding:10px 5px;
 }
 @media screen and (max-width: 1681px) and (min-width: 1280px ){
 	p.learn-btn a {
