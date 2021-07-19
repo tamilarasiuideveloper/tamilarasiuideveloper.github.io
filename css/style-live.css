@@ -199,14 +199,14 @@ h1.cover-heading label {
 }
 @media screen and (max-width: 1024px) and (min-width: 992px ){
 		p.learn-btn a {
-    width: 400px;
+    width: 340px;
 	    padding: 6px 15px;
 	}
 		h1.cover-heading {
-    font: 35px Conv_aqlswfte;
+    font: 30px Conv_aqlswfte;
 }
 h1.cover-heading label {
-    font: 35px Conv_aqrswfte;
+    font: 30px Conv_aqrswfte;
 }
 header.logo-header a.logo-part img {
     width: 18%;
@@ -224,6 +224,9 @@ footer.footer {
 }
 .bg-left,.bg-right {
     top: 27%;
+}
+p.learn-btn a {
+    font: 20px Conv_aqrswfte;
 }
 /* .img-footer { */
     /* width: 22%; */
